@@ -69,7 +69,7 @@ public class EasyJoinItems extends JavaPlugin implements CommandExecutor, Listen
             ItemMeta itemMeta = itemStack.getItemMeta();
             String name = itemCFG.getString("name");
             if (name != null) {
-                itemMeta.displayName(ConfigManager.colorComponent(configManager.parse(Objects.requireNonNull(name), player)));
+                itemMeta.displayName(ConfigManager.colorComponent(configManager.parse(name, player)));
             }
             String lore = itemCFG.getString("lore");
             if (lore != null && !lore.isEmpty()) {
