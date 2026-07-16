@@ -1,0 +1,12 @@
+items:
+  1:
+    material: EMERALD
+    amount: 1
+    can-drop: false
+    name: "Example"
+    lore: "Lore"
+    commands-player:
+      - "say i'm player!"
+    commands-console:
+      - "say i'm console!"
+    slot: 35

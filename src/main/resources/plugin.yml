@@ -3,3 +3,14 @@ name: EasyJoinItems
 version: '1.0'
 author: Katok777
 api-version: 1.21
+
+permissions:
+  EasyJoinItems.reload:
+    default: op
+
+commands:
+  easyjoinitemsreload:
+    permission: EasyJoinItems.reload
+
+softdepend:
+  - "PlaceholderAPI"
