@@ -1,0 +1,5 @@
+main: com.katok.easyjoinitems.EasyJoinItems
+name: EasyJoinItems
+version: '1.0'
+author: Katok777
+api-version: 1.21
